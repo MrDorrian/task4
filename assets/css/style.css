@@ -1,0 +1,83 @@
+@import url("../css/reset.css");
+/* Reset file */
+* {
+  --color: #17a2b8;
+}
+
+.card-wrapper {
+  padding: 90px 0 30px 550px;
+  height: 100vh;
+  background-color: lightblue;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 17px;
+}
+
+.card-container {
+  border: 1px solid var(--color);
+  background-color: var(--color);
+  max-width: 350px;
+  height: 530px;
+  text-align: center;
+}
+.card-bg {
+  height: 140px;
+}
+.card-content {
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 20px;
+  padding-top: 0;
+}
+.card-content h2 {
+  font-size: 30px;
+  margin: 12px 0;
+  text-transform: capitalize;
+}
+.card-content p {
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height: 85px;
+  height: 100%;
+}
+.photo-wrapper {
+  background-color: transparent;
+}
+.card-photo {
+  --card-ele: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: -70px;
+  width: var(--card-ele);
+  height: var(--card-ele);
+}
+.btn-container {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 19px 0;
+  margin: 12px 0;
+}
+.card-btn {
+  /* white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 120px;
+  min-width: 60px; */
+
+  background-color: var(--color);
+  border-radius: 5px;
+  border-color: var(--color);
+  padding: 7px 10px;
+  text-transform: capitalize;
+  color: #fff;
+}
+.card-btn:hover {
+  background-color: orange;
+  color: black;
+}
+.card-contacts {
+  margin: 12px 0;
+}
+.contact {
+  margin: 0 5px;
+}
